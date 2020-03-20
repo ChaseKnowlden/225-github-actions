@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - uses: actions/setup-node@master
-        with:
+      with:
         node-version: 12
       - run: npm ci
       - run: npm run build
